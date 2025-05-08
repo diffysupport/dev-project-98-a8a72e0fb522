@@ -104,6 +104,7 @@ basic:
         - /news/videos/c4g3gwg3dqlo
         - /news/videos/cx262wl9z91o
         - /news
+        - /business
     monitoring:
         days: {  }
         type: daily
