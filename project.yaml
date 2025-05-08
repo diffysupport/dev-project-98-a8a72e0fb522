@@ -10,10 +10,6 @@ basic:
         - 1200
     pages:
         - /
-        - /news
-        - /sport
-        - /business
-        - /innovation
         - /culture
         - /arts
         - /travel
@@ -123,11 +119,23 @@ advanced:
     delay: 15
     scroll: true
     headers:
-        - { header: '', value: '' }
+        - { value: '', header: '' }
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
